@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space tourism website</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ... -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+
+  <body id="destination-body">
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <g fill="none" fill-rule="evenodd">
+              <circle cx="24" cy="24" r="24" fill="#FFF" />
+              <path
+                fill="#0B0D17"
+                d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="nav-rectangle">
+          <img src="../assets/home/Rectangle.png" />
+        </div>
+        <div class="nav-buttons">
+          <div id="nav-button-1" class="nav-item nav-item-active nav-item-1">
+            <a href="index.html"
+              ><span class="nav-buttons-span">00</span>HOME</a
+            >
+          </div>
+          <div id="nav-button-2" class="nav-item nav-item-active nav-item-2">
+            <a href="destination.html"
+              ><span class="nav-buttons-span">01</span>DESTINATION</a
+            >
+          </div>
+          <div class="nav-item nav-item-active nav-item-3">
+            <a href="crew.html"><span class="nav-buttons-span">02</span>CREW</a>
+          </div>
+          <div class="nav-item nav-item-active nav-item-4">
+            <a href="technology.html"
+              ><span class="nav-buttons-span">03</span>TECHNOLOGY</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="destination-container">
+      <div class="destination-head">
+        <h1 id="destination-h1">
+          <span id="destination-span">01</span> PICK YOUR DESTINATION
+        </h1>
+      </div>
+      <!-- ... -->
+      <div class="destination-body flex-reverse">
+        <div class="destination-body-img">
+          <img id="planet_img" src="../assets/destination/image-moon.png" />
+        </div>
+        <!-- ... -->
+        <div class="destination-body-text">
+          <div class="destination-body-buttons">
+            <div class="dest-ctn">
+              <button
+                id="destination-moon"
+                type="button"
+                class="destination-button inter-dest in-1"
+              >
+                MOON
+              </button>
+            </div>
+            <div class="dest-ctn">
+              <button
+                id="destination-mars"
+                type="button"
+                class="destination-button inter-dest"
+              >
+                MARS
+              </button>
+            </div>
+            <div class="dest-ctn">
+              <button
+                id="destination-europa"
+                type="button"
+                class="destination-button inter-dest"
+              >
+                EUROPA
+              </button>
+            </div>
+            <div class="dest-ctn">
+              <button
+                id="destination-titan"
+                type="button"
+                class="destination-button inter-dest"
+              >
+                TITAN
+              </button>
+            </div>
+          </div>
+          <div class="">
+            <h1 id="planet_name">MOON</h1>
+          </div>
+          <div class="">
+            <p id="planet_description">
+              See our planet as you’ve never seen it before. A perfect relaxing
+              trip away to help regain perspective and come back refreshed.
+              While you’re there, take in some history by visiting the Luna 2
+              and Apollo 11 landing sites.
+            </p>
+          </div>
+          <div class="content-line">
+            <!-- <hr /> -->
+          </div>
+          <div class="destionation-body-bottom">
+            <div class="destination-body-distancet">
+              <p id="destination-distance">AVG. DISTANCE</p>
+              <p id="planet_distance">384,400 KM</p>
+            </div>
+            <div class="destination-body-time">
+              <p id="destination-time">EST. TRAVEL TIME</p>
+              <p id="planet_travel">3 DAYS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ... -->
+    <script src="../js/script.js"></script>
+  </body>
+</html>
