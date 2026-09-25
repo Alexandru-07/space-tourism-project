@@ -35,7 +35,7 @@ function exploreFunc() {
 
 async function getInfo() {
   try {
-    const url = "../data/data.json";
+    const url = "./data/data.json";
     const response = await fetch(url);
     const data = await response.json();
 
