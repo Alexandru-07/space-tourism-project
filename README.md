@@ -1,4 +1,6 @@
-# Frontend Mentor - Space tourism website
+# Frontend Mentor - Space tourism website 
+
+! Project created personally as part of the Skillbrain course.
 
 ![Design preview for the Space tourism website](./preview.jpg)
 
