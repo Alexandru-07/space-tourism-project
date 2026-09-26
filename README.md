@@ -2,6 +2,8 @@
 
 ! Project created personally as part of the Skillbrain course.
 
+https://alexandru-07.github.io/space-tourism-project/
+
 ![Design preview for the Space tourism website](./preview.jpg)
 
 ## The challenge
